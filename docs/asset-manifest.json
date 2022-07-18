@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/ZoomSDK/static/css/main.fb15fde1.chunk.css",
-    "main.js": "/ZoomSDK/static/js/main.e3b253b0.chunk.js",
-    "main.js.map": "/ZoomSDK/static/js/main.e3b253b0.chunk.js.map",
+    "main.js": "/ZoomSDK/static/js/main.b56c38b0.chunk.js",
+    "main.js.map": "/ZoomSDK/static/js/main.b56c38b0.chunk.js.map",
     "runtime-main.js": "/ZoomSDK/static/js/runtime-main.9766272c.js",
     "runtime-main.js.map": "/ZoomSDK/static/js/runtime-main.9766272c.js.map",
-    "static/js/2.a03bf92b.chunk.js": "/ZoomSDK/static/js/2.a03bf92b.chunk.js",
-    "static/js/2.a03bf92b.chunk.js.map": "/ZoomSDK/static/js/2.a03bf92b.chunk.js.map",
+    "static/js/2.884f6cb9.chunk.js": "/ZoomSDK/static/js/2.884f6cb9.chunk.js",
+    "static/js/2.884f6cb9.chunk.js.map": "/ZoomSDK/static/js/2.884f6cb9.chunk.js.map",
     "static/js/3.b4f5dba3.chunk.js": "/ZoomSDK/static/js/3.b4f5dba3.chunk.js",
     "static/js/3.b4f5dba3.chunk.js.map": "/ZoomSDK/static/js/3.b4f5dba3.chunk.js.map",
     "index.html": "/ZoomSDK/index.html",
     "static/css/main.fb15fde1.chunk.css.map": "/ZoomSDK/static/css/main.fb15fde1.chunk.css.map",
-    "static/js/2.a03bf92b.chunk.js.LICENSE.txt": "/ZoomSDK/static/js/2.a03bf92b.chunk.js.LICENSE.txt"
+    "static/js/2.884f6cb9.chunk.js.LICENSE.txt": "/ZoomSDK/static/js/2.884f6cb9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9766272c.js",
-    "static/js/2.a03bf92b.chunk.js",
+    "static/js/2.884f6cb9.chunk.js",
     "static/css/main.fb15fde1.chunk.css",
-    "static/js/main.e3b253b0.chunk.js"
+    "static/js/main.b56c38b0.chunk.js"
   ]
 }
