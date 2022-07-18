@@ -1,6 +1,5 @@
 main {
   width: 70%;
-  margin: auto;
   text-align: center;
 }
 
@@ -23,3 +22,78 @@ main button {
 main button:hover {
   background-color: #2681F2;
 }
+
+.button-inizia-ora-big {
+  border-radius: 10px 10px 10px 10px; 
+  background-color: #ff8c57;
+  padding: 10px;
+  }
+  .button-inizia-ora-big:hover {
+    box-shadow: #ff8c57;
+    }
+        
+  .button-div{
+    margin-top: 50px;
+    margin-right: 770px;
+  }
+
+       
+  .logo {
+    height:200px;
+    width: 500px;
+    margin-left: 100px;
+    position: absolute;
+  }
+  
+  .form-bg {
+    margin-left:-300px;
+    background-color: white;
+    width: 2000px;
+    height: 1080px;
+  }
+
+  .sdk-select {  
+    height: 34px;
+    border-radius: 4px;
+  }
+		
+  .websdktest button {
+    float: right;
+    margin-left: 5px;
+  }
+  
+  #nav-tool {
+    margin-bottom: 0px;
+  }
+
+  #show-test-tool {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: block;
+    z-index: 99999;        
+  }
+  
+  #display_name {
+    width: 250px;
+  }
+  
+  #websdk-iframe {
+    width: 700px;
+    height: 500px;
+    border: 1px;
+    border-color: red;
+    border-style: dashed;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin: 0;
+  }
+
+  .container{
+    margin-right: 200px;
+    padding-right: 200px;
+    right: 200px;
+  }
