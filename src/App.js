@@ -13,10 +13,11 @@ ZoomMtg.i18n.reload('en-US');
 function App() {
 
   // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-  const signatureEndpoint = 'http://localhost:4000'
+  // const signatureEndpoint = 'http://localhost:4000'
+  const signatureEndpoint = 'https://stark-reaches-79052.herokuapp.com/'
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
   const sdkKey = 'vXg4kmQnzvSvjHMwCmOcdXSjqmxP6BowVafd'
-  const leaveUrl = 'http://localhost:3000'
+  const leaveUrl = 'http://localhost:3000/choose-platform'
   const role = 0
 
   var [meetingNumber, setMeetingNumber] = useState('');
@@ -48,7 +49,9 @@ function App() {
 
     fetch(signatureEndpoint, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 
+                 'Accept': 'application/json',
+               },
       body: JSON.stringify({
         meetingNumber: meetingNumber,
         role: role
@@ -56,6 +59,7 @@ function App() {
     }).then(res => res.json())
     .then(response => {
       startMeeting(response.signature)
+      console.log(response.signature)
       }).catch(error => {
       console.error(error)
     })
